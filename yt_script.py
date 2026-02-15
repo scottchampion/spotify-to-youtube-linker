@@ -83,7 +83,7 @@ def main():
             fieldnames = original_fields + [TARGET_COLUMN]
 
         with open(
-            output_file, mode='w', encoding='utf-8', newline=''
+            output_file, mode='w', encoding='utf-8', newline='', buffering=1
         ) as outfile:
             writer = csv.DictWriter(
                 outfile, 
