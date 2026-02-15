@@ -1,0 +1,12 @@
+# Ignore any logs or junk
+*.log
+junk/
+
+# Ignore ALL CSVs... ...BUT keep the input file
+*.csv
+!example_input.csv
+
+# Ignore Python artifacts
+__pycache__/
+*.pyc
+.env
