@@ -10,3 +10,6 @@ junk/
 __pycache__/
 *.pyc
 .env
+
+# Editor settings
+.vscode/
